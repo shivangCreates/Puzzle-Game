@@ -1,0 +1,42 @@
+body{
+    background-image: url("Puzzle-img/background-img.webp");
+    background-repeat: no-repeat;
+}
+.game{
+    text-align: center;
+    justify-items: center;
+}
+table,tr,td{
+    border: 2px solid rgb(46, 43, 226);
+    border-collapse: collapse;
+}
+table{
+    border: 5px solid black;
+    
+}
+img{
+    width: 90px;
+    height: 90px;
+    padding: 0%;
+}
+
+.list{
+    display: flex;
+    gap: 80px;
+}
+h4{
+    margin-bottom: 3%;
+    background-color: darkorange;
+    font-family: Arial, Helvetica, sans-serif;
+}
+span{
+    color: rgba(0, 0, 0, 0.84);
+}
+.name{
+    display: flex;
+}
+h1{
+    background-color: yellow;
+    width: 200px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
